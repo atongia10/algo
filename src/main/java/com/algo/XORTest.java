@@ -15,6 +15,5 @@ public class XORTest {
         System.out.println(xorTotal^argTotal);
         System.out.println(5^16);
 
-
     }
 }

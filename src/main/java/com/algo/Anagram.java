@@ -3,7 +3,7 @@ package com.algo;
 public class Anagram {
 
     public static void main(String[] args) {
-        String s1 = "abbc";
+        String s1 = "abbb";
         String s2 = "babd";
         s1 = s1.toLowerCase();
         s2.toLowerCase();
@@ -20,7 +20,7 @@ public class Anagram {
         for(char s : s2.toCharArray())
             letters[s]--;
         for(int i : letters){
-            if(1!=0)
+            if(i!=0)
                 return false;
         }
 
